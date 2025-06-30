@@ -77,7 +77,7 @@ st.markdown(
 # --- Data Loading and Initialization ---
 @st.cache_data
 def load_data():
-    cutoffs = pd.read_csv("cutoffs2023-2024.csv")
+    cutoffs = pd.read_csv("cutoffs2023-2025.csv")
     return cutoffs
 
 cutoffs = load_data()
@@ -270,7 +270,7 @@ st.subheader("🎓 Engineering Admissions Copilot for JEE 2025")
 st.markdown(
     """
     <p style="font-size:16px; color:gray; text-align:left;">
-    This tool is an open-source initiative to help you prepare for JoSAA 2025 counselling using JEE 2023, 2024 cutoff data.
+    This tool is an open-source initiative to help you prepare for JoSAA 2025 counselling using JEE 2023, 2024 cutoff data (*added 2025 rounds 1 and 2 data also).
     All data is fetched from the official JoSAA website and used as-is. Use this tool at your own risk. The author is not liable for any inaccuracies or decisions based on this data.
     </p>
     """,
@@ -502,7 +502,7 @@ st.markdown("---")  # Horizontal line separator
 st.markdown(
     """
     <p style="font-size:12px; color:gray; text-align:left;">
-    &copy; 2025 Ritesh Jain. This tool is an open-source initiative to help you prepare for JoSAA 2025 counselling using JEE 2023, 2024 cutoff data.
+    &copy; 2025 Ritesh Jain. This tool is an open-source initiative to help you prepare for JoSAA 2025 counselling using JEE 2023, 2024 cutoff data (*added 2025 rounds 1 and 2 data also).
     All data is fetched from the official JoSAA website and used as-is. Use this tool at your own risk. The author is not liable for any inaccuracies or decisions based on this data.
     </p>
     """,
